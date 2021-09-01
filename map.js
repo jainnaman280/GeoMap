@@ -304,7 +304,7 @@
 
     customElements.define("com-demo-gauge", Box);
 
-
+console.log(json);
 
 })();
     
