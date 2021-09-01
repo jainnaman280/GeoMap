@@ -19,7 +19,7 @@
 		<div id="map"></div>
 	`;
 
-    var json = "";
+   
 	class Box extends HTMLElement {
 		constructor() {
 			super();
@@ -58,7 +58,7 @@
 			if ("color" in changedProperties) {
 				this.$color = changedProperties["color"];
             }
-            json = this.$info;
+            
 			this.render(this.$value, this.$info, this.$color);
 		}
 	}
